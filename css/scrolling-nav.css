@@ -1,0 +1,184 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+
+
+
+
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+.botaof1 {
+    
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ05ULdyEiEm-SuKLk34Q57cqiSuhFgoFj44a8jXna1uOOynY5K6g");
+    width: 80px;
+    height: 80px;
+
+
+}
+.botaof2 {
+    background: url("http://st2.depositphotos.com/1006536/5274/v/170/depositphotos_52741347-stock-illustration-abstract-colorful-blurred-and-striped.jpg");
+    width: 80px;
+    height: 80px;
+
+}
+.botaof3 {
+   background: url("http://cache1.asset-cache.net/xd/482213297.jpg?v=1&c=IWSAsset&k=2&d=62CA815BFB1CE48083BC9DE8DFEFE81E73E7DAAD5CA538699BC6DB2814E2D6E0C18BF228A2A64C86");
+    width: 80px;
+    height: 80px;
+
+}.botaof4 {
+   background: url("http://oi717.photobucket.com/albums/ww177/kapataz_2009/problema_maquina/DSCF4154.jpg");
+
+    width: 80px;
+    height: 80px;
+
+}
+
+input[type=text] {
+
+    border: 1px solid #5BC0DE;
+    border-radius: 4px;
+}
+
+input[type=date] {
+
+    border: 1px solid #5BC0DE;
+    border-radius: 4px;
+}
+select {
+
+    border: 1px solid #5BC0DE;
+    border-radius: 4px;
+}
+a:hover{
+
+    color: black !important;
+
+}
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 0px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+        
+}
+
+
+   
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.desafios-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.estatisticas-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.sobre-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
