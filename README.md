@@ -1,3 +1,10 @@
+
+Desafoto - Sistema para criar desafios de perguntas e respostas em que o prêmio é a foto postada. 
+
+Abaixo segue o readme do template bootstrap.
+
+
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/)
 
 [Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/) is an unstyled one page starter template with a collapsing, smooth scrolling navigation bar for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
