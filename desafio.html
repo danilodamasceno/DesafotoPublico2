@@ -1,0 +1,120 @@
+<head>
+
+ <meta charset="UTF-8">
+
+<script language = 'javascript'> 
+function imgLetra( letra ){ 
+switch( letra ) { 
+case "a": 
+document.getElementById( 'div_img' ).innerHTML = "<img src = 'images/codigoBorrado2.png' >"; 
+break; 
+} 
+
+} 
+
+</script> 
+
+<script language = 'javascript'> 
+function imgLetra2( letra ){ 
+switch( letra ) { 
+case "b": 
+document.getElementById( 'div_img' ).innerHTML = "<img src = 'images/codigoBorrado1.png' >"; 
+
+break; 
+} 
+
+} 
+
+</script> 
+
+<script language = 'javascript'> 
+function imgLetra3( letra ){ 
+switch( letra ) { 
+case "c": 
+document.getElementById( 'div_img' ).innerHTML = "<img src = 'images/frank.png' >"; 
+break; 
+} 
+
+} 
+
+</script> 
+
+
+ <script type="text/javascript">
+  function Mudarestado(el) {
+        var display = document.getElementById(el).style.display;
+        if(display == "none")
+            document.getElementById(el).style.display = 'block';
+        else
+            document.getElementById(el).style.display = 'none';
+    }
+
+</script>
+
+
+
+
+</head>
+
+<body>
+ 
+<CENTER>
+
+<h1>Desafio encerra em: 23/06/2017</h1>
+
+<div id = 'div_img'><img src = 'images/codigoBorrado3.png' ></div> 
+
+<div id='pg1' style="display: block;">
+<form action="">
+<h2>Pergunta 1: Qual meu sobrenome ?</h2>
+
+  <input type="radio" name="gender" value="other"> Silva<br>
+  <input type="radio" name="gender" value="other"> Martins<br>
+  <input type="radio" name="gender" value="other"> Underwood<br>
+  <input type="radio" name="gender" value="other"> Smith<br>
+  
+</form>
+
+<input type='button' value="Resposta 1" onclick = "javascript: imgLetra('a'); Mudarestado('pg1'); Mudarestado('pg2');" > 
+
+</div>
+
+<div id='pg2' style="display: none;">
+<form action="">
+<h2>Pergunta 2: Qual o primeiro nome da minha esposa ?</h2>
+
+  <input type="radio" name="gender" value="other"> Claire<br>
+  <input type="radio" name="gender" value="other"> Sarah<br>
+  <input type="radio" name="gender" value="other"> Jessica<br>
+  <input type="radio" name="gender" value="other"> Marrilyn<br>
+  
+</form>
+<input type='button' value="Resposta 2" onclick = "javascript: imgLetra2('b'); Mudarestado('pg2'); Mudarestado('pg3');" >
+</div>
+
+<div id='pg3' style="display: none;">
+<form action="">
+<h2>Pergunta 3: Qual o meu cargo atual?</h2>
+
+  <input type="radio" name="gender" value="other"> Presidente<br>
+  <input type="radio" name="gender" value="other"> Deputado<br>
+  <input type="radio" name="gender" value="other"> Senador<br>
+  <input type="radio" name="gender" value="other"> Ministro<br>
+  
+</form>
+<input type='button' value="Resposta 3" onclick = "javascript: imgLetra3('c'); Mudarestado('pg3'); Mudarestado('pg4');" >  
+</div>
+
+
+<div id='pg4' style="display: none;">
+
+<h1>Parabéns Você acertou todas as questões e pode visualizar a foto original</h1>
+</div>
+
+
+
+</CENTER>
+
+
+ 
+</body>
